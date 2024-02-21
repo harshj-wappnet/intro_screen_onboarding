@@ -187,7 +187,7 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
           width: 55,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            color: Colors.grey.shade100,
+            color: Colors.grey.shade200,
           ),
           child: IconButton(
             onPressed: () {
