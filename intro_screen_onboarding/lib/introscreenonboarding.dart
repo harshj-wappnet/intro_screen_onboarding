@@ -44,18 +44,6 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: [
-                    Container(
-                      alignment: Alignment.topRight,
-                      child: TextButton(
-                        onPressed: widget.onTapSkipButton,
-                        child: Text('Skip', style: widget.skipTextStyle),
-                      ),
-                    ),
-                  ],
-                ),
                 Expanded(
                   child: Container(
                     height: 550.0,
@@ -75,8 +63,25 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
                 //                  mainAxisAlignment: MainAxisAlignment.center,
                 //                  children: _buildPageIndicator(),
                 //                ),
-                Align(
-                    alignment: Alignment.centerRight, child: _customProgress()),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Container(
+                      alignment: Alignment.topRight,
+                      child: TextButton(
+                        onPressed: widget.onTapSkipButton,
+                        child: Text('Skip', style: widget.skipTextStyle),
+                      ),
+                    ),
+                    _customProgress(),
+                  ],
+                ),
+                // Align(
+                //     alignment: Alignment.centerRight,
+                //     child: Padding(
+                //       padding: const EdgeInsets.symmetric(horizontal: 10),
+                //       child:
+                //     )),
                 //_buildNextButton(),
               ],
             ),
