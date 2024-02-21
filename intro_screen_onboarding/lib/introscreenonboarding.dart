@@ -187,8 +187,7 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
           width: 55,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            color: (widget.foregroundColor ?? Theme.of(context).primaryColor)
-                .withOpacity(0.5),
+            color: Colors.transparent,
           ),
           child: IconButton(
             onPressed: () {
@@ -201,7 +200,7 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
             },
             icon: Icon(
               Icons.arrow_forward_ios,
-              color: Colors.white,
+              color: Colors.black,
             ),
             iconSize: 15,
           ),
