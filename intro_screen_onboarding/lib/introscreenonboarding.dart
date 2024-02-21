@@ -63,18 +63,21 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
                 //                  mainAxisAlignment: MainAxisAlignment.center,
                 //                  children: _buildPageIndicator(),
                 //                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Container(
-                      alignment: Alignment.topRight,
-                      child: TextButton(
-                        onPressed: widget.onTapSkipButton,
-                        child: Text('Skip', style: widget.skipTextStyle),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 12),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        alignment: Alignment.topRight,
+                        child: TextButton(
+                          onPressed: widget.onTapSkipButton,
+                          child: Text('Skip', style: widget.skipTextStyle),
+                        ),
                       ),
-                    ),
-                    _customProgress(),
-                  ],
+                      _customProgress(),
+                    ],
+                  ),
                 ),
                 // Align(
                 //     alignment: Alignment.centerRight,

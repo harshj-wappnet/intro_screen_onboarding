@@ -1,22 +1,18 @@
 import 'package:flutter/material.dart';
 
 class Introduction extends StatefulWidget {
-  final String imageUrl;
+  final Widget imageWidget;
   final String title;
   final String subTitle;
-  final double? imageWidth;
-  final double? imageHeight;
   final TextStyle titleTextStyle;
   final TextStyle subTitleTextStyle;
 
   Introduction({
-    required this.imageUrl,
+    required this.imageWidget,
     required this.title,
     required this.subTitle,
     this.titleTextStyle = const TextStyle(fontSize: 30),
     this.subTitleTextStyle = const TextStyle(fontSize: 20),
-    this.imageWidth = 360,
-    this.imageHeight = 360,
   });
 
   @override
@@ -35,13 +31,7 @@ class IntroductionState extends State<Introduction> {
           //crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Center(
-              child: Image(
-                image: AssetImage(widget.imageUrl),
-                height: widget.imageHeight,
-                width: widget.imageWidth,
-              ),
-            ),
+            Center(child: widget.imageWidget),
             SizedBox(
               height: 20.0,
             ),

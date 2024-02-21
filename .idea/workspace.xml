@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e358727-9d24-4aee-b390-62f4a0a462a8" name="Default Changelist" comment="minor ui fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/lib/introduction.dart" beforeDir="false" afterPath="$PROJECT_DIR$/intro_screen_onboarding/lib/introduction.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/lib/introscreenonboarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/intro_screen_onboarding/lib/introscreenonboarding.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708496311250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="minor ui fix">
+      <option name="closed" value="true" />
+      <created>1708496518488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708496518488</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
