@@ -48,12 +48,14 @@ class IntroductionState extends State<Introduction> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
-                  widget.title,
-                  textAlign: TextAlign.center,
-                  maxLines: 2,
-                  overflow: TextOverflow.clip,
-                  style: widget.titleTextStyle,
+                Flexible(
+                  child: Text(
+                    widget.title,
+                    textAlign: TextAlign.center,
+                    maxLines: 2,
+                    overflow: TextOverflow.clip,
+                    style: widget.titleTextStyle,
+                  ),
                 ),
               ],
             ),

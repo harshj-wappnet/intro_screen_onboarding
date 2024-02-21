@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e358727-9d24-4aee-b390-62f4a0a462a8" name="Default Changelist" comment="">
+    <list default="true" id="1e358727-9d24-4aee-b390-62f4a0a462a8" name="Default Changelist" comment="minor ui fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/intro_screen_onboarding/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/intro_screen_onboarding/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/intro_screen_onboarding/.dart_tool/version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/.packages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/intro_screen_onboarding/example/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/lib/introduction.dart" beforeDir="false" afterPath="$PROJECT_DIR$/intro_screen_onboarding/lib/introduction.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/intro_screen_onboarding/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/lib/introscreenonboarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/intro_screen_onboarding/lib/introscreenonboarding.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +53,15 @@
       <option name="presentableId" value="Default" />
       <updated>1596246336293</updated>
     </task>
+    <task id="LOCAL-00001" summary="minor ui fix">
+      <option name="closed" value="true" />
+      <created>1708493509231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708493509231</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,5 +74,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="minor ui fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor ui fix" />
   </component>
 </project>

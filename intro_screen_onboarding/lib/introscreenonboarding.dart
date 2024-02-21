@@ -75,7 +75,8 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
                 //                  mainAxisAlignment: MainAxisAlignment.center,
                 //                  children: _buildPageIndicator(),
                 //                ),
-                _customProgress(),
+                Align(
+                    alignment: Alignment.centerRight, child: _customProgress()),
                 //_buildNextButton(),
               ],
             ),
