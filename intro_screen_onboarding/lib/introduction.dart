@@ -51,6 +51,7 @@ class IntroductionState extends State<Introduction> {
                 Text(
                   widget.title,
                   textAlign: TextAlign.center,
+                  maxLines: 2,
                   overflow: TextOverflow.clip,
                   style: widget.titleTextStyle,
                 ),
