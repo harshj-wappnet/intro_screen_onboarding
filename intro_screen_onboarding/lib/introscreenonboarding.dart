@@ -11,17 +11,23 @@ class IntroScreenOnboarding extends StatefulWidget {
   final Color? backgroudColor;
   final Color? foregroundColor;
   final TextStyle? skipTextStyle;
+  final double? pageHeight;
+  final EdgeInsets? pagePadding;
+  final EdgeInsets? bottomWidgetPadding;
 
   /// Callback on Skip Button Pressed
   final Function()? onTapSkipButton;
-  IntroScreenOnboarding({
-    Key? key,
-    this.introductionList,
-    this.onTapSkipButton,
-    this.backgroudColor,
-    this.foregroundColor,
-    this.skipTextStyle = const TextStyle(fontSize: 20),
-  }) : super(key: key);
+  IntroScreenOnboarding(
+      {Key? key,
+      this.introductionList,
+      this.onTapSkipButton,
+      this.backgroudColor,
+      this.foregroundColor,
+      this.skipTextStyle = const TextStyle(fontSize: 20),
+      this.pageHeight,
+      this.pagePadding,
+      this.bottomWidgetPadding})
+      : super(key: key);
 
   @override
   _IntroScreenOnboardingState createState() => _IntroScreenOnboardingState();
@@ -40,13 +46,13 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
         child: Container(
           color: widget.backgroudColor ?? Theme.of(context).backgroundColor,
           child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 40.0),
+            padding: widget.pagePadding ?? EdgeInsets.symmetric(vertical: 40.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Expanded(
                   child: Container(
-                    height: 550.0,
+                    height: widget.pageHeight ?? 550.0,
                     child: PageView(
                       physics: ClampingScrollPhysics(),
                       controller: _pageController,
@@ -64,7 +70,8 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
                 //                  children: _buildPageIndicator(),
                 //                ),
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 12),
+                  padding: widget.bottomWidgetPadding ??
+                      EdgeInsets.symmetric(horizontal: 12),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
