@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e358727-9d24-4aee-b390-62f4a0a462a8" name="Default Changelist" comment="minor ui fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/intro_screen_onboarding/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_screen_onboarding/lib/introscreenonboarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/intro_screen_onboarding/lib/introscreenonboarding.dart" afterDir="false" />
-    </list>
+    <list default="true" id="1e358727-9d24-4aee-b390-62f4a0a462a8" name="Default Changelist" comment="fix responsiveness in onboarding page." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708497827775</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix responsiveness in onboarding page.">
+      <option name="closed" value="true" />
+      <created>1710744119232</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710744119232</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="minor ui fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor ui fix" />
+    <MESSAGE value="fix responsiveness in onboarding page." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix responsiveness in onboarding page." />
   </component>
 </project>

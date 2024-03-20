@@ -44,7 +44,7 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
       child: AnnotatedRegion<SystemUiOverlayStyle>(
         value: SystemUiOverlayStyle.light,
         child: Container(
-          color: widget.backgroudColor ?? Theme.of(context).backgroundColor,
+          color: widget.backgroudColor ?? Colors.white,
           child: Padding(
             padding: widget.pagePadding ?? EdgeInsets.symmetric(vertical: 40.0),
             child: Column(
